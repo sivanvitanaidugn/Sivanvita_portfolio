@@ -108,9 +108,9 @@ const HomePage: React.FC = () => {
   
   const getImagePath = (name: string): string => {
     if (name.startsWith('origin_spark') || name.startsWith('code_chronicles') || name === 'behind_the_syntax_00') {
-      return `images/${name}.png`;
+      return `/images/${name}.png`;
     }
-    return `images/${name}.jpg`;
+    return `/images/${name}.jpg`;
   };
 
   const currentImages = imageSets[activeNav].map(getImagePath);
