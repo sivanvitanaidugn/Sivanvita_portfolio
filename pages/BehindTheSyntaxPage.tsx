@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import Header from '../components/Header.tsx';
 import BackButton from '../components/BackButton.tsx';
@@ -74,14 +75,14 @@ const BehindTheSyntaxPage: React.FC = () => {
         {
             title: "MySQL 5-Star Gold Rank on HackerRank",
             description: "Achieved within a week by applying my unique 'learn with work' approach—simultaneously mastering and executing SQL skills without disrupting productivity, making me an efficient, fast-learning asset for any team.",
-            imageContent: <ImagePlaceholder src="images/hackerrank_badge.png" alt="HackerRank 5-star badge" className="w-60 h-60 mx-auto" />,
+            imageContent: <ImagePlaceholder src="/images/hackerrank_badge.png" alt="HackerRank 5-star badge" className="w-60 h-60 mx-auto" />,
             imagePosition: 'left' as 'left',
             icon: '⭐'
         },
         {
             title: "AWS Technical Essentials Certificate",
             description: "Got hands-on with AWS basics, unlocking the power of cloud magic by mastering key services and savvy best practices for smarter, faster, and secure cloud adventures!",
-            imageContent: <ImagePlaceholder src="images/aws_certificate.png" alt="AWS Certificate logo" className="aspect-[4/3] max-w-md mx-auto" />,
+            imageContent: <ImagePlaceholder src="/images/aws_certificate.png" alt="AWS Certificate logo" className="aspect-[4/3] max-w-md mx-auto" />,
             imagePosition: 'right' as 'right',
             icon: '☁️'
         },
@@ -90,8 +91,8 @@ const BehindTheSyntaxPage: React.FC = () => {
             description: "I’m a BlueCross volunteer who’s basically a full-time dog hugger—helping with vaccination and adoption drives, walking, feeding, and pampering indies. I’ve fostered two stray fluffballs and couldn’t resist adopting one myself. Life’s better with wagging tails and a little chaos! 🌞🐶✨",
             imageContent: (
                 <div className="grid grid-cols-2 gap-2">
-                    <ImagePlaceholder src="images/volunteer_photo_1.jpg" alt="Photo 1 with a dog" className="aspect-square"/>
-                    <ImagePlaceholder src="images/volunteer_photo_2.jpg" alt="Photo 2 at adoption drive" className="aspect-square"/>
+                    <ImagePlaceholder src="/images/volunteer_photo_1.jpg" alt="Photo 1 with a dog" className="aspect-square"/>
+                    <ImagePlaceholder src="/images/volunteer_photo_2.jpg" alt="Photo 2 at adoption drive" className="aspect-square"/>
                 </div>
             ),
             imagePosition: 'left' as 'left',
@@ -100,21 +101,21 @@ const BehindTheSyntaxPage: React.FC = () => {
         {
             title: "Couture Sparks, Freely Fueled",
             description: "Blending creativity with curiosity, I immerse myself in couture dress sketching as a self-taught fashion enthusiast. My ideas often rush in at the quirkiest moments—just before sleep or mid-shower—fueling spontaneous, artistic explorations that bring bold, original sketches to life.",
-            imageContent: <ImagePlaceholder src="images/fashion_sketch.png" alt="Image of a fashion sketch" className="aspect-square" />,
+            imageContent: <ImagePlaceholder src="/images/fashion_sketch.png" alt="Image of a fashion sketch" className="aspect-square" />,
             imagePosition: 'right' as 'right',
             icon: '👗'
         },
         {
             title: "National Service Scheme (NSS) Volunteer",
             description: "Former NSS volunteer with a spirited commitment to civic engagement—led campus cleanliness drives, championed girl child education through awareness marches, and actively participated in Swachh Bharat initiatives. Also facilitated blood donation camps, tree plantations, and community outreach programs, fostering grassroots impact with empathy, discipline, and social responsibility.",
-            imageContent: <ImagePlaceholder src="images/nss_event.jpg" alt="Photo from an NSS event" className="aspect-video" />,
+            imageContent: <ImagePlaceholder src="/images/nss_event.jpg" alt="Photo from an NSS event" className="aspect-video" />,
             imagePosition: 'left' as 'left',
             icon: '🤝'
         },
         {
             title: "Tech Ops, Festival Edition",
             description: "SDE by craft, curator by spirit — I led tech for the merchandise team and orchestrated logistics in hospitality for Daksh and Kuruksastra, bridging code and coordination to engineer systems, manage resources, and craft experiences with precision, empathy, and expressive flair.",
-            imageContent: <ImagePlaceholder src="images/college_fest.jpg" alt="Photo from Daksh or Kuruksastra college fest" className="aspect-video" />,
+            imageContent: <ImagePlaceholder src="/images/college_fest.jpg" alt="Photo from Daksh or Kuruksastra college fest" className="aspect-video" />,
             imagePosition: 'right' as 'right',
             icon: '🎉'
         }
