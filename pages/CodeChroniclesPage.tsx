@@ -34,10 +34,11 @@ const CodeChroniclesPage: React.FC = () => {
             dates: 'Oct 2023 - Present',
             content: (
                 <ul className="space-y-2">
-                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Engineered a full-stack email client application using Python with SMTP/IMAP protocols, implementing secure SSL/TLS connections and MIME-enabled messaging with multi-format attachment support.</span></li>
-                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Developed local mail server architecture with domain-specific user account management, integrating TCP/IP protocol stack for reliable packet transmission and store-and-forward functionality.</span></li>
-                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Built intuitive GUI interface using Tkinter with comprehensive mailbox management (Inbox, Sent, Trash), featuring real-time email composition, retrieval, deletion, and attachment download capabilities.</span></li>
-                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Implemented advanced email handling features including base64 encoding for attachments, multi-part message processing, and automated folder organization with Gmail API integration support.</span></li>
+                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Built and scaled web applications for HR, Marketing, and Fleet Management using Python backend services, supporting 50+ users.</span></li>
+                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Designed and developed REST APIs with a microservices architecture, improving integration, performance, and usability across 100+ business use cases.</span></li>
+                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Delivered the Fleet Management module ahead of schedule (60 vs 75 days), achieving 30% cost savings and earning an “Excellence in Delivery” award.</span></li>
+                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Created responsive front-end interfaces with React, JavaScript, HTML, and CSS, ensuring cross-browser compatibility and smooth user experience.</span></li>
+                    <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Partnered with DevOps to manage code in Git and deploy applications on AWS via CI/CD pipelines, enhancing scalability and reliability.</span></li>
                 </ul>
             )
         },
@@ -51,8 +52,8 @@ const CodeChroniclesPage: React.FC = () => {
                         <h4 className="font-playfair font-semibold text-lg text-[#66496a]">Junior Software Engineer (Project MARS)</h4>
                         <p className="text-sm text-[#66496a]/70 italic">July 2023 – Sept 2023</p>
                         <ul className="space-y-2 mt-2">
-                            <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Worked on transition of legacy front-end technologies to modern frameworks, focused on decoupling front-end and back-end systems for improved flexibility and scalability.</span></li>
-                            <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Designed and developed backend APIs using Java and PostgreSQL to enable the creation of a unified codebase for the eCommerce platform.</span></li>
+                            <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Worked on modernizing legacy systems by migrating front‑end components to modern frameworks and developing backend APIs with Python and PostgreSQL, improving scalability, performance, and flexibility of core application workflows.</span></li>
+                            <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Worked closely with cross‑functional teams to test, debug, and resolve production issues efficiently, ensuring smooth operations and reliable delivery of business features.</span></li>
                         </ul>
                     </div>
                     <hr className="border-t border-[#c9a9ad]/50 my-4" />
@@ -60,7 +61,7 @@ const CodeChroniclesPage: React.FC = () => {
                         <h4 className="font-playfair font-semibold text-lg text-[#66496a]">Software Intern (PDO Team)</h4>
                         <p className="text-sm text-[#66496a]/70 italic">Jan 2023 – July 2023</p>
                         <ul className="space-y-2 mt-2">
-                           <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Developed an API as part of a specified task, implementing core system functionality, and received commendation for enhancing it with strong security features, including authentication and authorization, to ensure secure access to the platform.</span></li>
+                           <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Developed backend APIs with authentication and authorization, strengthening platform security and improving user access management. This contribution enhanced data protection and reliability, earning recognition from the team for its impact.</span></li>
                            <li className="flex"><span className="mr-2 text-[#edb8c8]">◆</span><span>Conducted Sanity testing across webpage modules for six regions, ensuring functionality, performance, and compatibility, and collaborated with teams to resolve issues for region-specific user experiences.</span></li>
                         </ul>
                     </div>
